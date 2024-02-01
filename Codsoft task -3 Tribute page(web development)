@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        #tribute-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #3498db;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        #tribute-link {
+            color: #3498db;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        #tribute-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div id="tribute-container">
+    <h1>Tribute to [Person's Name]</h1>
+
+    <img src="image_url.jpg" alt="[Person's Name]">
+
+    <section>
+        <h2>Early Life</h2>
+        <p>This section provides information about the early life of [Person's Name].</p>
+    </section>
+
+    <section>
+        <h2>Contributions</h2>
+        <p>Highlighting the significant contributions and achievements of [Person's Name].</p>
+    </section>
+
+    <section>
+        <h2>Legacy</h2>
+        <p>Discussing the lasting impact and legacy left by [Person's Name].</p>
+    </section>
+
+    <section>
+        <h2>Quotes</h2>
+        <p>"A meaningful quote from [Person's Name] that reflects their philosophy."</p>
+    </section>
+
+    <section>
+        <h2>External Resources</h2>
+        <p>For more information, visit the <a id="tribute-link" href="https://example.com" target="_blank">official website</a>.</p>
+    </section>
+</div>
+
+</body>
+</html>
